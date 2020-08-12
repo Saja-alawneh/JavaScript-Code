@@ -1,0 +1,356 @@
+﻿[
+  {
+    "deepphe.getLabelSummary([\"Patient_patient01_1\"])": [
+      {
+        "documentEpisode": "Treatment",
+        "documentDate": "2012/05/01",
+        "labelCounts": {
+          "DrugCount": 10,
+          "FindingCount": 9,
+          "ProcedureCount": 7,
+          "LabCount": 3,
+          "OtherCount": 6,
+          "DisorderCount": 3
+        },
+        "documentName": "patient01_report028_NOTE",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "Follow-up",
+        "documentDate": "2013/02/27",
+        "labelCounts": {
+          "DrugCount": 0,
+          "FindingCount": 8,
+          "ProcedureCount": 12,
+          "LabCount": 0,
+          "OtherCount": 18,
+          "DisorderCount": 2
+        },
+        "documentName": "patient01_report018_RAD",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "unknown",
+        "documentDate": "2011/11/18",
+        "labelCounts": {
+          "DrugCount": 21,
+          "FindingCount": 28,
+          "ProcedureCount": 11,
+          "LabCount": 10,
+          "OtherCount": 28,
+          "DisorderCount": 8
+        },
+        "documentName": "patient01_report006_SP",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "unknown",
+        "documentDate": "2013/02/06",
+        "labelCounts": {
+          "DrugCount": 0,
+          "FindingCount": 0,
+          "ProcedureCount": 0,
+          "LabCount": 0,
+          "OtherCount": 0,
+          "DisorderCount": 0
+        },
+        "documentName": "patient01_report097_NOTE",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "unknown",
+        "documentDate": "2012/05/21",
+        "labelCounts": {
+          "DrugCount": 7,
+          "FindingCount": 26,
+          "ProcedureCount": 12,
+          "LabCount": 3,
+          "OtherCount": 23,
+          "DisorderCount": 7
+        },
+        "documentName": "patient01_report015_SP",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "Pre-diagnostic",
+        "documentDate": "2011/11/18",
+        "labelCounts": {
+          "DrugCount": 1,
+          "FindingCount": 1,
+          "ProcedureCount": 3,
+          "LabCount": 0,
+          "OtherCount": 9,
+          "DisorderCount": 4
+        },
+        "documentName": "patient01_report007_RAD",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "Medical Decision-making",
+        "documentDate": "2011/11/30",
+        "labelCounts": {
+          "DrugCount": 37,
+          "FindingCount": 54,
+          "ProcedureCount": 32,
+          "LabCount": 9,
+          "OtherCount": 110,
+          "DisorderCount": 37
+        },
+        "documentName": "patient01_report002_NOTE",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "unknown",
+        "documentDate": "2012/05/21",
+        "labelCounts": {
+          "DrugCount": 0,
+          "FindingCount": 0,
+          "ProcedureCount": 0,
+          "LabCount": 0,
+          "OtherCount": 0,
+          "DisorderCount": 0
+        },
+        "documentName": "patient01_report017_DS",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "Pre-diagnostic",
+        "documentDate": "2012/04/24",
+        "labelCounts": {
+          "DrugCount": 0,
+          "FindingCount": 6,
+          "ProcedureCount": 9,
+          "LabCount": 0,
+          "OtherCount": 13,
+          "DisorderCount": 6
+        },
+        "documentName": "patient01_report011_RAD",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "unknown",
+        "documentDate": "2012/04/24",
+        "labelCounts": {
+          "DrugCount": 0,
+          "FindingCount": 17,
+          "ProcedureCount": 14,
+          "LabCount": 1,
+          "OtherCount": 47,
+          "DisorderCount": 6
+        },
+        "documentName": "patient01_report012_RAD",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "unknown",
+        "documentDate": "2012/02/17",
+        "labelCounts": {
+          "DrugCount": 19,
+          "FindingCount": 13,
+          "ProcedureCount": 10,
+          "LabCount": 4,
+          "OtherCount": 22,
+          "DisorderCount": 7
+        },
+        "documentName": "patient01_report017_NOTE",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "Pre-diagnostic",
+        "documentDate": "2011/11/03",
+        "labelCounts": {
+          "DrugCount": 0,
+          "FindingCount": 3,
+          "ProcedureCount": 2,
+          "LabCount": 0,
+          "OtherCount": 5,
+          "DisorderCount": 0
+        },
+        "documentName": "patient01_report002_RAD",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "unknown",
+        "documentDate": "2012/05/21",
+        "labelCounts": {
+          "DrugCount": 0,
+          "FindingCount": 0,
+          "ProcedureCount": 5,
+          "LabCount": 0,
+          "OtherCount": 4,
+          "DisorderCount": 1
+        },
+        "documentName": "patient01_report016_RAD",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "Treatment",
+        "documentDate": "2012/09/13",
+        "labelCounts": {
+          "DrugCount": 0,
+          "FindingCount": 5,
+          "ProcedureCount": 4,
+          "LabCount": 0,
+          "OtherCount": 8,
+          "DisorderCount": 6
+        },
+        "documentName": "patient01_report074_NOTE",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "Pre-diagnostic",
+        "documentDate": "2011/11/16",
+        "labelCounts": {
+          "DrugCount": 1,
+          "FindingCount": 17,
+          "ProcedureCount": 15,
+          "LabCount": 0,
+          "OtherCount": 52,
+          "DisorderCount": 4
+        },
+        "documentName": "patient01_report004_RAD",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "Medical Decision-making",
+        "documentDate": "2012/04/27",
+        "labelCounts": {
+          "DrugCount": 14,
+          "FindingCount": 39,
+          "ProcedureCount": 33,
+          "LabCount": 9,
+          "OtherCount": 85,
+          "DisorderCount": 32
+        },
+        "documentName": "patient01_report024_NOTE",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "unknown",
+        "documentDate": "2012/05/18",
+        "labelCounts": {
+          "DrugCount": 0,
+          "FindingCount": 2,
+          "ProcedureCount": 7,
+          "LabCount": 0,
+          "OtherCount": 3,
+          "DisorderCount": 4
+        },
+        "documentName": "patient01_report014_RAD",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "unknown",
+        "documentDate": "2013/03/05",
+        "labelCounts": {
+          "DrugCount": 0,
+          "FindingCount": 0,
+          "ProcedureCount": 0,
+          "LabCount": 0,
+          "OtherCount": 0,
+          "DisorderCount": 0
+        },
+        "documentName": "patient01_report019_RAD",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "Pre-diagnostic",
+        "documentDate": "2011/11/18",
+        "labelCounts": {
+          "DrugCount": 1,
+          "FindingCount": 1,
+          "ProcedureCount": 3,
+          "LabCount": 0,
+          "OtherCount": 9,
+          "DisorderCount": 4
+        },
+        "documentName": "patient01_report009_RAD",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "unknown",
+        "documentDate": "2012/06/08",
+        "labelCounts": {
+          "DrugCount": 0,
+          "FindingCount": 0,
+          "ProcedureCount": 0,
+          "LabCount": 0,
+          "OtherCount": 0,
+          "DisorderCount": 0
+        },
+        "documentName": "patient01_report058_NOTE",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "Treatment",
+        "documentDate": "2012/04/10",
+        "labelCounts": {
+          "DrugCount": 9,
+          "FindingCount": 13,
+          "ProcedureCount": 6,
+          "LabCount": 3,
+          "OtherCount": 6,
+          "DisorderCount": 4
+        },
+        "documentName": "patient01_report021_NOTE",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "unknown",
+        "documentDate": "2012/02/17",
+        "labelCounts": {
+          "DrugCount": 0,
+          "FindingCount": 0,
+          "ProcedureCount": 0,
+          "LabCount": 0,
+          "OtherCount": 0,
+          "DisorderCount": 0
+        },
+        "documentName": "patient01_report019_NOTE",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "unknown",
+        "documentDate": "2011/12/09",
+        "labelCounts": {
+          "DrugCount": 0,
+          "FindingCount": 27,
+          "ProcedureCount": 15,
+          "LabCount": 0,
+          "OtherCount": 46,
+          "DisorderCount": 12
+        },
+        "documentName": "patient01_report010_RAD",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "Pre-diagnostic",
+        "documentDate": "2011/11/16",
+        "labelCounts": {
+          "DrugCount": 1,
+          "FindingCount": 17,
+          "ProcedureCount": 15,
+          "LabCount": 0,
+          "OtherCount": 52,
+          "DisorderCount": 4
+        },
+        "documentName": "patient01_report003_RAD",
+        "patientId": "Patient_patient01_1"
+      },
+      {
+        "documentEpisode": "unknown",
+        "documentDate": "2012/05/16",
+        "labelCounts": {
+          "DrugCount": 14,
+          "FindingCount": 8,
+          "ProcedureCount": 5,
+          "LabCount": 2,
+          "OtherCount": 13,
+          "DisorderCount": 4
+        },
+        "documentName": "patient01_report040_NOTE",
+        "patientId": "Patient_patient01_1"
+      }
+    ]
+  }
+]
