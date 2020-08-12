@@ -69,11 +69,11 @@ for( j = 0; j < patientDataSorted.length; j++){
     while (y >= 1)
         {
             patientDataSorted[i]['Year']= 'Y' + docYear;
-            patientLabels[i]['Year']='Y' + docYear;
+           // patientLabels[i]['Year']='Y' + docYear;
             
             y--;
         }
-        console.log(pa)
+        
         // to calculate the quarter 
         // example : if the document is located in Year 2 and the difference between the first date and the current date is 488 days
         // Then to assign the quarter, I will use the following formula
@@ -102,11 +102,6 @@ for( j = 0; j < patientDataSorted.length; j++){
         patientDataSorted[i]['totalLabQ2']= totalLabQ2 + patientDataSorted[i]['labelCounts']['LabCount'];
         patientDataSorted[i]['totalProcdureQ2']= totalProcdureQ2 + patientDataSorted[i]['labelCounts']['ProcedureCount'];
         patientDataSorted[i]['totalOthersQ2']= totalOthersQ2 + patientDataSorted[i]['labelCounts']['OtherCount'];
-        patientLabels.push({patientId: patientDataSorted[i]['patientId']}, {Year: patientDataSorted[i]['Year']},
-        {Quarter:patientDataSorted[i]['Quarter']},{totalFindingQ2:patientDataSorted[i]['totalFindingQ2']},
-        {totalDisorderQ2:patientDataSorted[i]['totalDisorderQ2']},{totalDrugQ2:patientDataSorted[i]['totalDrugQ2']},
-        {totalLabQ2:patientDataSorted[i]['totalLabQ2']}, {totalProcdureQ2: patientDataSorted[i]['totalProcdureQ2']}, 
-        {totalOthersQ2: patientDataSorted[i]['totalOthersQ2']})
         }
         
         else if (docQuarter > q2 && docQuarter<= q3)
@@ -118,11 +113,7 @@ for( j = 0; j < patientDataSorted.length; j++){
         patientDataSorted[i]['totalLabQ3']= totalLabQ3 + patientDataSorted[i]['labelCounts']['LabCount'];
         patientDataSorted[i]['totalProcdureQ3']= totalProcdureQ3 + patientDataSorted[i]['labelCounts']['ProcedureCount'];
         patientDataSorted[i]['totalOthersQ3']= totalOthersQ3 + patientDataSorted[i]['labelCounts']['OtherCount'];
-        patientLabels.push({patientId: patientDataSorted[i]['patientId']}, {Year: patientDataSorted[i]['Year']},
-        {Quarter:patientDataSorted[i]['Quarter']},{totalFindingQ3:patientDataSorted[i]['totalFindingQ3']},
-        {totalDisorderQ3:patientDataSorted[i]['totalDisorderQ3']},{totalDrugQ3:patientDataSorted[i]['totalDrugQ3']},
-        {totalLabQ3:patientDataSorted[i]['totalLabQ3']}, {totalProcdureQ3: patientDataSorted[i]['totalProcdureQ3']}, 
-        {totalOthersQ3: patientDataSorted[i]['totalOthersQ3']})
+        
         }
         else 
         {
@@ -133,14 +124,39 @@ for( j = 0; j < patientDataSorted.length; j++){
         patientDataSorted[i]['totalLabQ4']= totalLabQ4 + patientDataSorted[i]['labelCounts']['LabCount'];
         patientDataSorted[i]['totalProcdureQ4']= totalProcdureQ4 + patientDataSorted[i]['labelCounts']['ProcedureCount'];
         patientDataSorted[i]['totalOthersQ4']= totalOthersQ4 + patientDataSorted[i]['labelCounts']['OtherCount'];
-        patientLabels.push({patientId: patientDataSorted[i]['patientId']}, {Year: patientDataSorted[i]['Year']},
-        {Quarter:patientDataSorted[i]['Quarter']},{totalFindingQ4:patientDataSorted[i]['totalFindingQ4']},
-        {totalDisorderQ4:patientDataSorted[i]['totalDisorderQ4']},{totalDrugQ4:patientDataSorted[i]['totalDrugQ4']},
-        {totalLabQ4:patientDataSorted[i]['totalLabQ4']}, {totalProcdureQ4: patientDataSorted[i]['totalProcdureQ4']}, 
-        {totalOthersQ4: patientDataSorted[i]['totalOthersQ4']})
-        }
         
+        }
     }
+    console.log(patientDataSorted);
+
+    for( j = 0; j < patientDataSorted.length; j++){
+        if ( patientDataSorted[j].totalFindingQ1 !=undefined) {
+            patientLabels.push({patientId: patientDataSorted[j].patientId}, {Year: patientDataSorted[j]['Year']},
+            {Quarter:patientDataSorted[j]['Quarter']}, {totalFindingQ1:patientDataSorted[j]['totalFindingQ1']})
+        }
+        if ( patientDataSorted[j].totalDrugQ1 !=undefined) {
+            patientLabels.push({patientId: patientDataSorted[j]['patientId']}, {Year: patientDataSorted[j]['Year']},
+            {Quarter:patientDataSorted[j]['Quarter']}, {totalDrugQ1:patientDataSorted[j]['totalDrugQ1']})
+            }
+        if ( patientDataSorted[j].totalDisorderQ1 !=undefined) {
+            patientLabels.push({patientId: patientDataSorted[j]['patientId']}, {Year: patientDataSorted[j]['Year']},
+            {Quarter:patientDataSorted[j]['Quarter']}, {totalDisorderQ1:patientDataSorted[j]['totalDisorderQ1']})
+            }
+        if ( patientDataSorted[j].totalLabQ1 !=undefined) {
+            patientLabels.push({patientId: patientDataSorted[j]['patientId']}, {Year: patientDataSorted[j]['Year']},
+            {Quarter:patientDataSorted[j]['Quarter']}, {totalLabQ1:patientDataSorted[j]['totalLabQ1']})
+            }
+
+        if ( patientDataSorted[j].totalProcedureQ1 !=undefined) {
+            patientLabels.push({patientId: patientDataSorted[j]['patientId']}, {Year: patientDataSorted[j]['Year']},
+            {Quarter:patientDataSorted[j]['Quarter']}, {totalProcedureQ1:patientDataSorted[j]['totalProcedureQ1']})
+            }
+        if ( patientDataSorted[j].totalOtherQ1 !=undefined) {
+                patientLabels.push({patientId: patientDataSorted[j]['patientId']}, {Year: patientDataSorted[j]['Year']},
+                {Quarter:patientDataSorted[j]['Quarter']}, {totalOtherQ1:patientDataSorted[j]['totalOthersQ1']})
+                }
+            }
+
     console.log(patientLabels);
-    console.log(patientLabels.length)
-    //console.log(JSON.stringify(patientLabels));
+    //console.log(patientLabels.length)
+    //console.log(JSON.stringify(patientLabels))
